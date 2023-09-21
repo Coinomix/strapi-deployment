@@ -1,10 +1,11 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "articles",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "product"
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,28 +24,35 @@
       },
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": true,
+      "minLength": 10
     },
-    "price": {
+    "content": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
-      "type": "decimal",
-      "required": true
+      "type": "richtext"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "articles"
     }
   }
 }
