@@ -65,12 +65,6 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article",
-      "mappedBy": "author"
-    },
     "firstname": {
       "type": "string",
       "required": true,
