@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "@strapi/plugin-gatsby-preview": "^0.1.0",
-    "@strapi/plugin-graphql": "4.14.0",
-    "@strapi/plugin-i18n": "4.14.0",
-    "@strapi/plugin-users-permissions": "4.14.0",
-    "@strapi/provider-upload-cloudinary": "^4.14.0",
-    "@strapi/strapi": "4.14.0",
+    "@strapi/plugin-graphql": "4.14.2",
+    "@strapi/plugin-i18n": "4.14.2",
+    "@strapi/plugin-users-permissions": "4.14.2",
+    "@strapi/provider-upload-cloudinary": "^4.14.2",
+    "@strapi/strapi": "4.14.2",
     "pg": "8.8.0"
   },
   "author": {
