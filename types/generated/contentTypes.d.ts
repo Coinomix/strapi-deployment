@@ -747,7 +747,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
         };
       }> &
       Attribute.SetMinMaxLength<{
-        maxLength: 80;
+        maxLength: 150;
       }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;

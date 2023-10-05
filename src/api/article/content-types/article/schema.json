@@ -86,7 +86,7 @@
       },
       "type": "text",
       "required": true,
-      "maxLength": 80
+      "maxLength": 150
     }
   }
 }
