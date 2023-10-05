@@ -2,7 +2,7 @@
   "name": "strapi-deployment",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "ITG Coinomix Admin panel",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -10,8 +10,6 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-gatsby-preview": "^0.1.0",
-    "@strapi/plugin-graphql": "4.14.3",
     "@strapi/plugin-i18n": "4.14.3",
     "@strapi/plugin-users-permissions": "4.14.3",
     "@strapi/provider-upload-cloudinary": "^4.14.3",
