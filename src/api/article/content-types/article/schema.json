@@ -88,6 +88,15 @@
       "type": "text",
       "required": true,
       "maxLength": 150
+    },
+    "publish_date": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "type": "datetime"
     }
   }
 }
