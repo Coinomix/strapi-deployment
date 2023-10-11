@@ -14,7 +14,8 @@
     "@strapi/plugin-users-permissions": "4.14.3",
     "@strapi/provider-upload-cloudinary": "^4.14.3",
     "@strapi/strapi": "4.14.3",
-    "pg": "8.8.0"
+    "pg": "8.8.0",
+    "strapi-plugin-netlify-deployments": "^2.0.1"
   },
   "author": {
     "name": "ITG"
