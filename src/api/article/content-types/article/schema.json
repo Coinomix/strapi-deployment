@@ -97,6 +97,12 @@
       },
       "required": true,
       "type": "datetime"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "articles"
     }
   }
 }
