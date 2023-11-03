@@ -64,12 +64,6 @@
       "targetField": "title",
       "required": true
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "articles"
-    },
     "top_home": {
       "pluginOptions": {
         "i18n": {
