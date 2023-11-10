@@ -886,13 +886,6 @@ export interface ApiTagTag extends Schema.CollectionType {
       Attribute.SetMinMax<{
         max: 5;
       }>;
-    homepage: Attribute.Boolean &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }> &
-      Attribute.DefaultTo<false>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<'api::tag.tag', 'oneToOne', 'admin::user'> &
