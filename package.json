@@ -10,12 +10,16 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.15.0",
-    "@strapi/plugin-users-permissions": "4.15.0",
-    "@strapi/provider-upload-cloudinary": "^4.15.0",
-    "@strapi/strapi": "4.15.0",
+    "@strapi/plugin-i18n": "4.15.4",
+    "@strapi/plugin-users-permissions": "4.15.4",
+    "@strapi/provider-upload-cloudinary": "^4.15.4",
+    "@strapi/strapi": "4.15.4",
     "pg": "8.8.0",
-    "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0",
+    "styled-components": "^5.3.11"
   },
   "author": {
     "name": "ITG"
